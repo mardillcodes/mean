@@ -16,19 +16,23 @@ MEAN is a set of Open Source components that together, provide an end-to-end fra
 
 ### Installation 
 ``` 
-git clone https://github.com/linnovate/mean
+git clone https://github.com/mardillcodes/mean
 cd mean
 cp .env.example .env
 yarn
 yarn start (for development)
 ```
 ### Docker based 
+
+This is gonna be easier yo:
 ``` 
-git clone https://github.com/linnovate/mean
+git clone https://github.com/mardillcodes/mean
 cd mean
 cp .env.example .env
 docker-compose up -d
 ```
+Now point your browser at http://localhost:4040/
+
 ### Credits 
 - The MEAN name was coined by Valeri Karpov.
 - Initial concept and development was done by Amos Haviv and sponsered by Linnovate.

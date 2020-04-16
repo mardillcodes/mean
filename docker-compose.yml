@@ -6,6 +6,8 @@ services:
     image: mean
     expose:
       - 4040
+    ports:
+      - "127.0.0.1:4040:4040"
     environment:
       NODE_ENV: production
       SERVER_PORT: 4040
